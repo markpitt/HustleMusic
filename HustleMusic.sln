@@ -5,6 +5,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HustleMusic", "HustleMusic\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleMusicAPI.NET", "..\GoogleMusicAPI.NET\GoogleMusicAPI.NET\GoogleMusicAPI.NET.csproj", "{52442B20-D632-4412-9628-352FFE948C73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleMusicAPI.NET.Tests", "..\GoogleMusicAPI.NET\GoogleMusicAPI.NET.Tests\GoogleMusicAPI.NET.Tests.csproj", "{5E69A331-A72A-4D03-8C03-D2823170A343}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{04840F3F-5189-4B0E-9C8D-B732A78D7E9D}"
+	ProjectSection(SolutionItems) = preProject
+		..\GoogleMusicAPI.NET\.nuget\NuGet.Config = ..\GoogleMusicAPI.NET\.nuget\NuGet.Config
+		..\GoogleMusicAPI.NET\.nuget\NuGet.exe = ..\GoogleMusicAPI.NET\.nuget\NuGet.exe
+		..\GoogleMusicAPI.NET\.nuget\NuGet.targets = ..\GoogleMusicAPI.NET\.nuget\NuGet.targets
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,18 +46,33 @@ Global
 		{52442B20-D632-4412-9628-352FFE948C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52442B20-D632-4412-9628-352FFE948C73}.Debug|ARM.ActiveCfg = Debug|Any CPU
 		{52442B20-D632-4412-9628-352FFE948C73}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{52442B20-D632-4412-9628-352FFE948C73}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
 		{52442B20-D632-4412-9628-352FFE948C73}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{52442B20-D632-4412-9628-352FFE948C73}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{52442B20-D632-4412-9628-352FFE948C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52442B20-D632-4412-9628-352FFE948C73}.Release|Any CPU.Build.0 = Release|Any CPU
 		{52442B20-D632-4412-9628-352FFE948C73}.Release|ARM.ActiveCfg = Release|Any CPU
 		{52442B20-D632-4412-9628-352FFE948C73}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{52442B20-D632-4412-9628-352FFE948C73}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{52442B20-D632-4412-9628-352FFE948C73}.Release|x64.ActiveCfg = Release|Any CPU
 		{52442B20-D632-4412-9628-352FFE948C73}.Release|x86.ActiveCfg = Release|Any CPU
+		{5E69A331-A72A-4D03-8C03-D2823170A343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E69A331-A72A-4D03-8C03-D2823170A343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E69A331-A72A-4D03-8C03-D2823170A343}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{5E69A331-A72A-4D03-8C03-D2823170A343}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5E69A331-A72A-4D03-8C03-D2823170A343}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5E69A331-A72A-4D03-8C03-D2823170A343}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5E69A331-A72A-4D03-8C03-D2823170A343}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5E69A331-A72A-4D03-8C03-D2823170A343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E69A331-A72A-4D03-8C03-D2823170A343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E69A331-A72A-4D03-8C03-D2823170A343}.Release|ARM.ActiveCfg = Release|Any CPU
+		{5E69A331-A72A-4D03-8C03-D2823170A343}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5E69A331-A72A-4D03-8C03-D2823170A343}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5E69A331-A72A-4D03-8C03-D2823170A343}.Release|x64.ActiveCfg = Release|Any CPU
+		{5E69A331-A72A-4D03-8C03-D2823170A343}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
 	EndGlobalSection
 EndGlobal
